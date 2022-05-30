@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Shared package properties -->
+  <!-- Import references updated by Dependabot.
+       This file is for package references updated manually or by Darc/Maestro. -->
+  <Import Project="dependabot\Packages.props" />
+  <ItemGroup>
+    <PackageReference Update="System.CommandLine" Version="$(SystemCommandLinePackageVersion)" />
+    <PackageReference Update="System.Diagnostics.Process" Version="$(SystemDiagnosticsProcessPackageVersion)" />
+    <PackageReference Update="System.IO.Compression" Version="$(SystemIOCompressionPackageVersion)" />
+    <PackageReference Update="System.Runtime.Loader" Version="$(SystemRuntimeLoaderPackageVersion)" />   
+    <PackageReference Update="Microsoft.Build.Framework" Version="$(MicrosoftBuildFrameworkPackageVersion)" />
+    <PackageReference Update="Microsoft.Build.Utilities.Core" Version="$(MicrosoftBuildUtilitiesCorePackageVersion)" />
+    <!--<PackageReference Update="Microsoft.Extensions.Logging" Version="7.0.0-preview.5.22272.3" />-->
+    <PackageReference Update="Microsoft.Extensions.Logging.Console" Version="7.0.0-preview.5.22272.3" />
+    <PackageReference Update="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-preview.5.22272.3" />
+    <!--no update-->
+    <PackageReference Update="Newtonsoft.Json" Version="$(NewtonsoftJsonPackageVersion)" />
+    <PackageReference Update="NuGet.Configuration" Version="$(NuGetConfigurationPackageVersion)" />
+    <!--<PackageReference Update="NuGet.Credentials" Version="$(NuGetCredentialsPackageVersion)" />-->
+    <PackageReference Update="NuGet.Protocol" Version="$(NuGetProtocolPackageVersion)" />
+    <PackageReference Update="Wcwidth.Sources" Version="$(WcwidthSourcesPackageVersion)" />
+    <!--<PackageReference Update="Microsoft.CodeAnalysis.NetAnalyzers" Version="$(MicrosoftCodeAnalysisNetAnalyzersPackageVersion)"  />-->
+    <PackageReference Update="Microsoft.Net.Compilers.Toolset" Version="$(MicrosoftNetCompilersToolsetPackageVersion)"  />
+    <!--no update-->
+    <PackageReference Update="Microsoft.CodeAnalysis.CSharp.CodeStyle" Version="$(MicrosoftCodeAnalysisCSharpCodeStylePackageVersion)"  />
+    <PackageReference Update="StyleCop.Analyzers" Version="1.2.0-beta.333"  />
+    <PackageReference Update="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="$(MicrosoftCodeAnalysisPublicApiAnalyzersPackageVersion)"  />
+  </ItemGroup>
+</Project>
