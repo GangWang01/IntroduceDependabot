@@ -10,7 +10,7 @@
     <PackageReference Update="Wcwidth.Sources" Version="0.5.0" />
     <PackageReference Update="Microsoft.Extensions.Logging" Version="7.0.0-preview.5.22272.3" />
     <PackageReference Update="Microsoft.Extensions.Logging.Console" Version="7.0.0-preview.5.22272.3" />
-    <PackageReference Update="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-preview.5.22272.3" />
+    <PackageReference Update="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-preview.6.22324.4" />
     <PackageReference Update="NuGet.Configuration" Version="6.2.0-rc.146" />
     <PackageReference Update="NuGet.Credentials" Version="6.2.0-rc.146" />
     <PackageReference Update="NuGet.Protocol" Version="6.2.0-rc.146" />
